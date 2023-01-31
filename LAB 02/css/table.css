@@ -1,0 +1,56 @@
+
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #201818;
+    font-size: 15px;
+    margin-left: 0%;
+    margin-right: 100%;
+
+}
+thead th:nth-child(1) {
+    width: 30%;
+    text-align: center;
+
+}
+
+
+
+thead th:nth-child(3) {
+    width: 30%;
+    text-align: center;
+
+}
+
+th,
+td{
+    padding: 10px;
+    text-align: center;
+}
+thead th{
+    text-align: right;
+    
+}
+
+thead th:nth-child(2) {
+    width: 50%;
+    text-align:center;
+
+}
+
+tbody tr td:nth-of-type(2),
+tbody tr td:nth-of-type(3){
+    text-align: center;
+    
+}
+tfoot td{
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+}
+/*setup zebra stripping - */
+
+tbody tr:nth-last-of-type(even){
+    background-color: rgb(156, 186, 163);
+}
